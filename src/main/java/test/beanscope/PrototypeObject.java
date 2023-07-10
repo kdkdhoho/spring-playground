@@ -1,4 +1,4 @@
-package test.domain;
+package test.beanscope;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

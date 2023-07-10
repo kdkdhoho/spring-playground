@@ -1,10 +1,10 @@
-package test.controller;
+package test.beanscope;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import test.domain.SingletonObject;
+import test.beanscope.SingletonObject;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 

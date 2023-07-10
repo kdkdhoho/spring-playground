@@ -1,4 +1,4 @@
-package test.domain;
+package test.beanscope;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -8,6 +8,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import test.TestApplication;
+import test.beanscope.OtherSingletonObject;
+import test.beanscope.PrototypeObject;
+import test.beanscope.SingletonObject;
 
 @SpringBootTest
 public class PrototypeTest {
