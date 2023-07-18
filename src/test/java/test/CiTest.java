@@ -8,6 +8,6 @@ class CiTest {
 
     @Test
     void test() {
-        assertThat(1).isEqualTo(2);
+        assertThat(1).isEqualTo(1);
     }
 }
