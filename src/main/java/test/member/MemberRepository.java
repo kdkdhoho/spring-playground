@@ -8,4 +8,6 @@ public interface MemberRepository {
     Long save(Member member);
 
     Member findById(Long id);
+
+    Member getByName(String name);
 }

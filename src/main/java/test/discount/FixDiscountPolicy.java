@@ -3,6 +3,7 @@ package test.discount;
 import test.member.Grade;
 import test.member.Member;
 
+
 public class FixDiscountPolicy implements DiscountPolicy {
 
     private static final int DISCOUNT_PRICE = 1_000;
